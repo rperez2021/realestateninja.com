@@ -25,12 +25,12 @@ export default function Alert({ preview }) {
             </>
           ) : (
             <>
-              Here is my IG Account, {' '}
+              {' '}
               <a
                 href={`https://www.instagram.com/releadninja/`}
                 className="underline hover:text-success duration-200 transition-colors"
               >
-                Onlyfans coming soon!
+               Follow me on instagram
               </a>
               
             </>

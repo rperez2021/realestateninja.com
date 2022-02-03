@@ -17,7 +17,11 @@ export default function Index({ allPosts }) {
           <title>Next.js Blog Example with {CMS_NAME}</title>
         </Head>
         <Container>
-          <Intro />
+          <div style={{fontSize:30, alignItems:'center', display:`flex`, justifyContent: `center`, height:800}}>
+            <div style={{width:350, height:60}}>
+          <p>Coming Soon Maybe</p>
+          </div></div>
+          {/* <Intro />
           {heroPost && (
             <HeroPost
               title={heroPost.title}
@@ -28,7 +32,7 @@ export default function Index({ allPosts }) {
               excerpt={heroPost.excerpt}
             />
           )}
-          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+          {morePosts.length > 0 && <MoreStories posts={morePosts} />} */}
         </Container>
       </Layout>
     </>
