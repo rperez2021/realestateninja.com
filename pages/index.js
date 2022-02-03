@@ -17,10 +17,14 @@ export default function Index({ allPosts }) {
           <title>Next.js Blog Example with {CMS_NAME}</title>
         </Head>
         <Container>
-          <div style={{fontSize:30, alignItems:'center', display:`flex`, justifyContent: `center`, height:800}}>
-            <div style={{width:350, height:60}}>
-          <p>Coming Soon Maybe</p>
-          </div></div>
+          <div style={{ fontSize: 30, alignItems: 'center', display: `flex`, justifyContent: `center`, height: 800, flexDirection: `column` }}>
+            <div style={{ width: 280, height: 60 }}>
+              <p>Coming Soon Maybe</p>
+              </div>
+              <div style={{ width: 50, height: 60 }}>
+                <p>😊</p>
+              </div>
+            </div>
           {/* <Intro />
           {heroPost && (
             <HeroPost
